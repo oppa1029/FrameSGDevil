@@ -3,4 +3,4 @@ language: objective-c
 sudo: required
 
 script:
-  - xcodebuild clean build test -project "FastcampusFrameSGDevil.xcodeproj" -scheme "FastcampusFrameSGDevil" -destination "platform=iOS Simulator,name=iPhone 7,OS=10.3.1” -sdk “iphonesimulator10.3" -configuration Release -enableCodeCoverage YES CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+  - xcodebuild clean build test -project "FastcampusFrameSGDevil.xcodeproj" -scheme "FastcampusFrameSGDevil" -destination "platform=iOS Simulator,name=iPhone 7,OS=10.3.1" -sdk "iphonesimulator10.3" -configuration Release -enableCodeCoverage YES CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
